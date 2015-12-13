@@ -1,0 +1,33 @@
+{
+  "notify": "/downloads/%package%",
+  "notify-batch": "/downloads/",
+  "packages": [],
+  "provider-includes": {
+    "p/provider-2013$%hash%.json": {
+      "sha256": "5eabcb75d94b428ce510270878b2b10a81e00b8afaaf4d5e9896b274ec0fbeaa"
+    },
+    "p/provider-2014$%hash%.json": {
+      "sha256": "9a7a79cfdfd24dac773cf189faa0a6756b33f4352c39e7861ed55cb870e27b32"
+    },
+    "p/provider-2015-01$%hash%.json": {
+      "sha256": "00340913136e82907716efe89d8980d7d3e47b390905f6d72f0ff56eebb9cb66"
+    },
+    "p/provider-2015-04$%hash%.json": {
+      "sha256": "dc1d338b4e059389de2091992417eff634f94835ecb96498aa2259bfabffbc25"
+    },
+    "p/provider-2015-07$%hash%.json": {
+      "sha256": "99a9efb2c3970745412fdef4b55438a77afae24b84e95fa552a2dfcca21495c1"
+    },
+    "p/provider-2015-10$%hash%.json": {
+      "sha256": "113e6db06a47bbe901f6932307011daf9de612ca9de927cd2ff263a34b234263"
+    },
+    "p/provider-archived$%hash%.json": {
+      "sha256": "21bb16829b6e507a79cf2a99773416f62462506f86d2f8a04167454724e08946"
+    },
+    "p/provider-latest$%hash%.json": {
+      "sha256": "29734ba3922c24ce8eb0f9bdfe765b2a4ed346e8e399c9d59c8faf57af2afb03"
+    }
+  },
+  "providers-url": "/p/%package%$%hash%.json",
+  "search": "/search.json?q=%query%"
+}
